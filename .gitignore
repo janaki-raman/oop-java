@@ -1,0 +1,57 @@
+
+# Ignore Eclipse project files
+.metadata/
+.classpath
+.project
+.settings/
+
+# Ignore JUnit library files if stored locally
+lib/junit*.jar
+
+# Maven-specific files
+target/
+*.log
+
+
+# Ignore test reports or generated test files
+test-output/
+
+
+# Ignore IntelliJ IDEA project-specific files
+.idea/
+*.iml
+*.iws
+
+# Ignore compiled Java class files
+*.class
+
+# Ignore log files
+*.log
+
+# Ignore package build output (if using Maven or Gradle)
+target/
+build/
+
+# Ignore IntelliJ IDEA workspace settings
+out/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore backup files
+*.bak
+
+# Ignore specific files for Java projects
+*.jar
+*.war
+*.ear
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Windows specific files
+Thumbs.db
+
+# Ignore Node.js modules folder if using Node for any integrations
+node_modules/
